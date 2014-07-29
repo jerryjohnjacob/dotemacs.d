@@ -5,6 +5,8 @@
       '(
         beginning-of-visual-line
         end-of-visual-line
+        kill-region
+        kill-visual-line
         sp--self-insert-command
         ))
 

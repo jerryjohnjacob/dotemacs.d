@@ -28,3 +28,4 @@
 (load "17key-chord-mode.el")
 (load "18css-mode.el")
 (load "19yasnippet-mode.el")
+(put 'downcase-region 'disabled nil)

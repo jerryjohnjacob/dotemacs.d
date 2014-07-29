@@ -6,6 +6,7 @@
 (depends-on "ac-js2")
 (depends-on "ac-js2")
 (depends-on "ace-jump-mode")
+(depends-on "ag")
 (depends-on "auto-complete")
 (depends-on "bind-key")
 (depends-on "browse-kill-ring")
