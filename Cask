@@ -23,6 +23,7 @@
 (depends-on "flycheck")
 (depends-on "flycheck-cask")
 (depends-on "grizzl")
+(depends-on "hexrgb")
 (depends-on "highlight-indentation")
 (depends-on "htmlize")
 (depends-on "idle-highlight-mode")
