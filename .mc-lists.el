@@ -17,6 +17,7 @@
       '(
         drag-stuff-left
         drag-stuff-right
+        emr-show-refactor-menu
         ido-switch-buffer
         smex
         ))
