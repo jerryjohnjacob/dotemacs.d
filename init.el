@@ -29,6 +29,7 @@
 (load "18css-mode.el")
 (load "19yasnippet-mode.el")
 (load "20emacs-refactor.el")
+(load "21vi-like-open-line.el")
 
 
 
