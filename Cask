@@ -16,6 +16,7 @@
 (depends-on "css-eldoc")
 (depends-on "dash")
 (depends-on "drag-stuff")
+(depends-on "elnode")
 (depends-on "emmet-mode")
 (depends-on "emr")
 (depends-on "enh-ruby-mode")
