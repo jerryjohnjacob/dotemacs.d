@@ -191,3 +191,6 @@
     	(decf n)))))
 
 (global-set-key (kbd "C-S-j") 'duplicate-current-line)
+
+;;disable dialogue boxes - it causes emacs to hang
+(setq use-dialog-box nil)
