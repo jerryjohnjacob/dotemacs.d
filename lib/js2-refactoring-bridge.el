@@ -1,5 +1,3 @@
-(require 'js2-refactor)
-
 (emr-declare-command js2r-extract-function
   :title "extract to function"
   :description nil
