@@ -1,3 +1,5 @@
+(require 'ruby-refactor)
+
 (emr-declare-command ruby-refactor-extract-to-method
   :title "extract to method"
   :description nil
