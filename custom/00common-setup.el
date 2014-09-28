@@ -8,6 +8,9 @@
 (setq system-uses-terminfo nil)
 
 ;; Prefer utf-8 encoding
+(set-terminal-coding-system 'utf-8)
+(set-keyboard-coding-system 'utf-8)
+(set-language-environment "UTF-8")
 (prefer-coding-system 'utf-8)
 
 ;; Use windmove bindings
@@ -24,7 +27,7 @@
 
 (menu-bar-mode -1)
 (tool-bar-mode -1)
-(load-theme 'monokai t)
+(load-theme 'molokai t)
 (set-face-attribute 'region nil :background "#666")
 ;; trucate even even when screen is split into multiple windows
 ;;(setq-default truncate-partial-width-windows nil)
@@ -43,8 +46,28 @@
 
 (global-visual-line-mode 1)
 
+;;hungry delete
+(global-hungry-delete-mode)
+
 (display-time)
 (if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
+
+
+;;delete  word on backspace
+
+(defun delete-word (arg)
+  "Delete characters forward until encountering the end of a word.
+With argument, do this that many times."
+  (interactive "p")
+  (delete-region (point) (progn (forward-word arg) (point))))
+
+(defun backward-delete-word (arg)
+  "Delete characters backward until encountering the end of a word.
+With argument, do this that many times."
+  (interactive "p")
+  (delete-word (- arg)))
+                             
+(global-set-key (kbd "C-<backspace>") 'backward-delete-word)
 
 ;;(scroll-bar-mode nil)
 
@@ -194,3 +217,7 @@
 
 ;;disable dialogue boxes - it causes emacs to hang
 (setq use-dialog-box nil)
+
+(modify-all-frames-parameters '((fullscreen . maximized)))
+
+(elscreen-start)

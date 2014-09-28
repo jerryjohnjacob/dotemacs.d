@@ -1,3 +1,5 @@
+(set-face-background 'hl-line "#3e4446")
+    (set-face-foreground 'highlight nil)
 (defun idle-highlight-mode-hook ()
   (make-local-variable 'column-number-mode)
   (column-number-mode t)

@@ -30,7 +30,7 @@
 (load "19yasnippet-mode.el")
 (load "20emacs-refactor.el")
 (load "21vi-like-open-line.el")
-
-
+(load "22helm-config.el")
+(load "23sr-speedbar-config.el")
 
 (put 'downcase-region 'disabled nil)
