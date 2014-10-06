@@ -5,6 +5,7 @@
 (add-to-list 'load-path "~/.emacs.d/lib")
 
 (require 'init-utils)
+(require 'troelskn-utilities)
 
 (add-to-list 'load-path "~/.emacs.d/custom")
 

@@ -3,21 +3,28 @@
 
 (setq mc/cmds-to-run-for-all
       '(
+        backward-delete-word
         beginning-of-visual-line
         dabbrev-expand
         end-of-buffer
         end-of-visual-line
+        hungry-delete-forward
+        ido-find-file
         indent-for-tab-command
         kill-region
         kill-visual-line
         sp--self-insert-command
+        yaml-electric-backspace
+	hungry-delete-backward		
+        drag-stuff-left
+        drag-stuff-right
         ))
 
 (setq mc/cmds-to-run-once
       '(
-        drag-stuff-left
-        drag-stuff-right
+        beginning-of-buffer
         emr-show-refactor-menu
+        helm-M-x
         ido-switch-buffer
         smex
         ))
