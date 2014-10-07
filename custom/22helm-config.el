@@ -14,6 +14,7 @@
 (global-set-key (kbd "M-x") 'helm-M-x)
 (global-set-key (kbd "M-y") 'helm-show-kill-ring)
 (global-set-key (kbd "C-x C-f") 'helm-find-files)
+(global-set-key (kbd "C-x b") 'helm-buffers-list)
 (global-set-key (kbd "C-h f") 'helm-swoop)
 (global-set-key (kbd "C-h s") 'helm-semantic-or-imenu)
 (global-set-key (kbd "C-h r") 'helm-resume)
