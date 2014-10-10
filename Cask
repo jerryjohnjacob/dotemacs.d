@@ -14,6 +14,8 @@
 (depends-on "css-eldoc")
 (depends-on "dash")
 (depends-on "drag-stuff")
+(depends-on "elixir-mix")
+(depends-on "elixir-mode")
 (depends-on "elnode")
 (depends-on "elscreen")
 (depends-on "emmet-mode")

@@ -18,4 +18,7 @@
 (add-hook 'css-mode-hook 'rainbow-delimiters-mode)
 (add-hook 'scss-mode-hook 'rainbow-delimiters-mode)
 (add-hook 'sass-mode-hook 'rainbow-delimiters-mode)
+(add-hook 'elixir-mode-hook 'rainbow-delimiters-mode)
+
+
 
