@@ -178,7 +178,7 @@ With argument, do this that many times."
 (popwin-mode t)
 
 ;;rainbow-delimiter-mode
-(global-rainbow-delimiters-mode)
+(rainbow-delimiters-mode 1)
 
 
 ;;undo tree mode

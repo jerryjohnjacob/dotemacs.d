@@ -51,3 +51,7 @@
 ;;; Use eldoc for syntax hints
 (autoload 'turn-on-css-eldoc "css-eldoc")
 (add-hook 'css-mode-hook 'turn-on-css-eldoc)
+
+(add-hook 'css-mode-hook 'rainbow-delimiters-mode)
+(add-hook 'scss-mode-hook 'rainbow-delimiters-mode)
+(add-hook 'sass-mode-hook 'rainbow-delimiters-mode)

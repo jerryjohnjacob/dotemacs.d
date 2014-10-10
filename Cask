@@ -25,8 +25,6 @@
 (depends-on "flycheck")
 (depends-on "flycheck-cask")
 (depends-on "grizzl")
-(depends-on "helm")
-(depends-on "helm-swoop")
 (depends-on "hexrgb")
 (depends-on "highlight-indentation")
 (depends-on "htmlize")
