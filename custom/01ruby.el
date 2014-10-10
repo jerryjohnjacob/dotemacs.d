@@ -46,6 +46,5 @@ of FILE in the current directory, suitable for creation"
           (lambda ()
             (local-set-key (kbd "C-c l") 'rspec-compile-on-line)
             (local-set-key (kbd "C-c k") 'rspec-compile-file)
-            (rainbow-delimiters-mode 1)
             ))
 
