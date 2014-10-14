@@ -33,5 +33,7 @@
 (load "21vi-like-open-line.el")
 (load "22rainbow-delimiter.el")
 (load "23sr-speedbar-config.el")
+(load "24haskell-mode.el")
+(load "25align-by-symbol.el")
 
 (put 'downcase-region 'disabled nil)
