@@ -3,7 +3,7 @@
 ;; Refer - https://github.com/serras/emacs-haskell-tutorial/blob/master/tutorial.md
 (require 'haskell-mode)
 ;;(add-hook 'haskell-mode-hook 'turn-on-haskell-indentation)
-(add-hook 'haskell-mode-hook 'turn-on-hi2)
+(add-hook 'haskell-mode-hook 'turn-on-haskell-indentation)
 
 ;; (require 'hindent)
 ;; (require 'haskell-process)
