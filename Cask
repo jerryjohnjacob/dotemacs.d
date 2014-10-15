@@ -31,6 +31,7 @@
 (depends-on "hamlet-mode")
 (depends-on "haskell-mode")
 (depends-on "hexrgb")
+(depends-on "hi2")
 (depends-on "highlight-indentation")
 (depends-on "htmlize")
 (depends-on "hungry-delete")
