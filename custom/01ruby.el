@@ -18,7 +18,7 @@
 This may not do the correct thing in presence of links. If it does not find FILE, then it shall return the name
 of FILE in the current directory, suitable for creation"
   (let ((root (expand-file-name "/"))) ; the win32 builds should translate this correctly
-    (loop 
+    (loop
      for d = default-directory then (expand-file-name ".." d)
      if (file-exists-p (expand-file-name file d))
      return d
@@ -48,3 +48,21 @@ of FILE in the current directory, suitable for creation"
             (local-set-key (kbd "C-c k") 'rspec-compile-file)
             ))
 
+(defun clean-up-buffer-or-region ()
+  "Untabifies, indents and deletes trailing whitespace from buffer or region."
+  (interactive)
+  (save-excursion
+    (unless (region-active-p)
+      (mark-whole-buffer))
+    (unless (or (eq major-mode 'coffee-mode)
+                (eq major-mode 'feature-mode))
+      (untabify (region-beginning) (region-end))
+      (indent-region (region-beginning) (region-end)))
+    (save-restriction
+      (narrow-to-region (region-beginning) (region-end))
+      (delete-trailing-whitespace))))
+
+(defun my-ruby-mode-hook ()
+  (add-hook 'before-save-hook 'clean-up-buffer-or-region nil 'make-it-local))
+
+(add-hook 'enh-ruby-mode-hook 'my-ruby-mode-hook)

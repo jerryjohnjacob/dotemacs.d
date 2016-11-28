@@ -37,3 +37,7 @@
 (load "25align-by-symbol.el")
 
 (put 'downcase-region 'disabled nil)
+(put 'upcase-region 'disabled nil)
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 2)
+(setq indent-line-function 'insert-tab)
