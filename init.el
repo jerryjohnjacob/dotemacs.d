@@ -35,6 +35,9 @@
 (load "23sr-speedbar-config.el")
 (load "24haskell-mode.el")
 (load "25align-by-symbol.el")
+(load "26lockstep.el")
+(load "27color-theme.el")
+(load "28hack-font.el")
 
 (put 'downcase-region 'disabled nil)
 (put 'upcase-region 'disabled nil)
