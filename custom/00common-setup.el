@@ -218,3 +218,8 @@ With argument, do this that many times."
 (modify-all-frames-parameters '((fullscreen . maximized)))
 
 (elscreen-start)
+
+
+;; move-dup configuration
+(require 'move-dup)
+(global-move-dup-mode)

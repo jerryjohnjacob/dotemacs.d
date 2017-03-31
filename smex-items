@@ -1,0 +1,49 @@
+
+;; ----- smex-history -----
+(
+ whitespace-cleanup
+ color-theme-charcoal-black
+ kill-some-buffers
+ ruby-mode
+ delete-this-file
+ rename-this-file-and-buffer
+ comment-region
+)
+
+;; ----- smex-data -----
+(
+ (package-install . 16)
+ (package-refresh-contents . 2)
+ (cider-jack-in . 3)
+ (eval-buffer . 3)
+ (cider-mode . 1)
+ (cider-view-manual . 1)
+ (projectile-rails-mode . 4)
+ (projectile-global-mode . 4)
+ (projectile-mode . 11)
+ (global-move-dup-mode . 1)
+ (helm-quickrun . 4)
+ (ruby-mode . 11)
+ (whitespace-mode . 2)
+ (whitespace-cleanup . 25)
+ (comment-region . 24)
+ (delete-file . 1)
+ (rename-this-file-and-buffer . 8)
+ (sass-mode . 3)
+ (delete-this-file . 9)
+ (web-mode . 5)
+ (html-erb-mode . 1)
+ (kill-some-buffers . 10)
+ (css-mode . 8)
+ (color-theme-midnight . 3)
+ (color-theme-xp . 1)
+ (color-theme-snow . 1)
+ (color-theme-taming-mr-arneson . 1)
+ (enh-ruby-mode . 5)
+ (uncomment-region . 5)
+ (text-mode . 4)
+ (scss-mode . 1)
+ (color-theme-taylor . 1)
+ (color-theme-solarized . 1)
+ (color-theme-charcoal-black . 7)
+)

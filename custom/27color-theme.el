@@ -1,4 +1,5 @@
 (require 'color-theme)
+(require 'color-theme-solarized)
 (color-theme-initialize)
 
 (defun pick-random-theme (theme-list)
@@ -9,5 +10,6 @@
                             'color-theme-midnight
                             'color-theme-taming-mr-arneson
                             'color-theme-taylor))
+                            ;; 'color-theme-solarized))
 
 (eval-after-load "color-theme" (pick-random-theme my-color-themes))
