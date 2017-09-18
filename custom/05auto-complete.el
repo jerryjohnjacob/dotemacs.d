@@ -43,7 +43,7 @@ auto-complete-mode)
                ac-source-words-in-all-buffer))
 
 (dolist (mode '(magit-log-edit-mode
-                enh-ruby-mode
+                enh-ruby-mode web-mode
                 log-edit-mode org-mode text-mode haml-mode
                 git-commit-mode
                 sass-mode yaml-mode csv-mode espresso-mode haskell-mode
@@ -63,3 +63,8 @@ auto-complete-mode)
 
 
 (provide 'init-auto-complete)
+
+(add-to-list 'ac-dictionary-directories
+             "~/.emacs.d/.cask/25.2/elpa/auto-complete-20170124.1845/dict")
+(ac-config-default)
+(setq ac-ignore-case nil)

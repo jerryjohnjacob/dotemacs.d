@@ -16,9 +16,9 @@
 (require 'troelskn-utilities)
 
 (add-to-list 'load-path "~/.emacs.d/custom")
-(add-to-list 'load-path "~/.emacs.d/custom/themes/emacs-color-theme-solarized")
+;; (add-to-list 'load-path "~/.emacs.d/custom/themes/emacs-color-theme-solarized")
 
-(require 'color-theme-solarized)
+;; (require 'color-theme-solarized)
 
 (load "00common-setup.el")
 (load "01ruby.el")
@@ -62,7 +62,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (cider clojure-mode helm move-dup yaml-mode whitespace-cleanup-mode web-mode use-package undo-tree smex smartparens shm scss-mode sass-mode ruby-refactor rspec-mode rainbow-mode rainbow-delimiters quickrun projectile-rails prodigy popwin pallet nyan-mode monokai-theme molokai-theme mmm-mode magit less-css-mode key-chord json-mode js2-refactor js-comint ido-vertical-mode ido-ubiquitous idle-highlight-mode hungry-delete htmlize hl-line+ highlight-indentation hi2 hexrgb hamlet-mode grizzl ghc flycheck-cask expand-region exec-path-from-shell enh-ruby-mode emr elscreen elnode elixir-mode drag-stuff css-eldoc color-theme coffee-mode buffer-move ag ace-jump-mode ac-js2 ac-ispell ac-emmet))))
+    (slim-mode rbenv idle-highlight-mode cider clojure-mode helm move-dup yaml-mode whitespace-cleanup-mode web-mode use-package smex smartparens shm scss-mode sass-mode ruby-refactor rspec-mode rainbow-mode rainbow-delimiters quickrun projectile-rails prodigy popwin pallet nyan-mode monokai-theme molokai-theme mmm-mode magit less-css-mode key-chord json-mode js2-refactor js-comint ido-vertical-mode ido-ubiquitous hungry-delete htmlize hl-line+ highlight-indentation hi2 hexrgb hamlet-mode grizzl ghc flycheck-cask expand-region exec-path-from-shell enh-ruby-mode emr elscreen elnode elixir-mode drag-stuff css-eldoc color-theme coffee-mode buffer-move ag ace-jump-mode ac-js2 ac-ispell ac-emmet))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

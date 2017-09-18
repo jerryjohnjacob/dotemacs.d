@@ -71,3 +71,4 @@ src/org-mode/*
 
 .cask/
 projectile.cache
+ido.last

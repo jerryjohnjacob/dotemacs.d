@@ -179,8 +179,8 @@ With argument, do this that many times."
 
 
 ;;undo tree mode
-(global-undo-tree-mode)
-(diminish 'undo-tree-mode)
+;;(global-undo-tree-mode)
+;;(diminish 'undo-tree-mode)
 
 ;;; Newline behaviour
 

@@ -1,3 +1,5 @@
+(require 'helm)
+(require 'helm-config)
 (require 'sr-speedbar)
 (add-hook 'speedbar-mode-hook
           (lambda()
